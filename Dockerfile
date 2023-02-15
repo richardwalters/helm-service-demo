@@ -8,5 +8,5 @@ RUN npm i
 
 COPY ./server.js /usr/src/app/server.js
 
-EXPOSE 8080
+EXPOSE 3000
 CMD ["npm", "start"]
