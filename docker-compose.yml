@@ -2,6 +2,7 @@ version: "3"
 services:
   hello:
     build: .
+    image: helm-service-demo:1.0.0
     ports:
       - "3000:3000"
     environment:
